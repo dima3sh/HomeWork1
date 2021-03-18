@@ -4,6 +4,10 @@ import com.mobile.pricingPlans.*;
 import com.mobile.services.CompanyService;
 import org.slf4j.*;
 
+//Мобильная связь. Определить иерархию тарифов мобильной компании.
+//Создать список тарифов компании. Посчитать общую численность клиентов.
+//Провести сортировку тарифов на основе размера абонентской платы. Найти
+//тариф в компании, соответствующий заданному диапазону параметров.
 
 public class Application {
     final static Logger LOGGER = LoggerFactory.getLogger(CompanyService.class);
